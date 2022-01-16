@@ -1,0 +1,340 @@
+<html>
+    <head>
+        <title>
+            My Resume
+        </title>
+        <style>
+            body {
+                height: 1403px;
+                width: 992px;
+            }
+            mark { 
+              background-color: lightgray;
+              color: black;
+            }
+            #resumeEmailDivision {
+                text-align: right;
+            }
+
+            #resumeNameHeading {
+                font-size: 30px;
+                font-weight: bold;
+            }
+            /*#resumeEmailDivision {
+                text-align: center;
+                background: lightgray;
+                border: 5px solid blue;
+                border-radius: 25px;
+                font-size: 3opx;
+                font-weight: bold;
+            }
+            #resumeNameDivision { 
+                color: blue;
+                background: rgb(165, 241, 165);
+            }
+            #resumeEmailDivision {
+                color: red;
+                background: gray;
+            }
+            #educationalQualification {
+                border: 1px solid black;
+            }
+            
+            #heading3 {
+                border: 3px solid red;
+            }*/
+            #headingDivision {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .heading {
+                border: 2px solid black;
+            }
+
+            .sectionHeading {
+                font-size: 24px;
+                font-weight: bold;
+                border-bottom: 3px solid black;
+            }
+
+            .body {
+                border-left: 2px solid black;
+                border-right: 2px solid black;
+            }
+
+            .bodyBottom {
+                border-bottom: 2px solid black;
+            }
+
+            #educationalQualificationsTable {
+                width: 100%;
+                border: 1px solid black;
+            }
+
+            #bottomDivision {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+
+            .headingContent {
+                text-align: left;
+                font-weight: bold;
+                font-size: 18px;
+                text-decoration: underline;
+            }
+
+            .headingContent2 {
+                text-align: left;
+                font-weight: bold;
+                font-size: 18px;
+                text-decoration: underline;
+            }
+
+            .subheadingContent {
+                text-align: left;
+                font-size: 14px;
+            }
+
+            .contentLocation {
+                text-align: right;
+                font-size: 14px;
+            }
+
+            .contentTime {
+                text-align: right;
+                font-size: 14px;
+            }
+
+            .contentText {
+                text-align: left;
+                font-size: 14px;
+            }
+
+            #relevantCoursesFlex {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+
+            #leftDivision {
+                padding-right: 10px;
+            }
+
+            #rightDivision {
+                padding-left: 10px;
+            }
+        </style>
+    </head>
+
+    <body id="resumeBody">
+        <div id="headingDivision">
+            <div id="resumeNameDivision">
+                <div id="resumeNameHeading"> Ayush Agrawal <br /> </div>
+                Sophomore <br />
+                Department of Civil Engineering <br />
+                IIT Kanpur <br />
+            </div>
+            <div id="resumeEmailDivision">
+                ayush.040602@gmail.com<br />
+                +91-6303171414<br />
+                linkedin.com/in/ayush-agrawal-6b6b51206 {Linkedin ID}<br />
+                github.com/ayush4602 {Github}<br />
+            </div>
+        </div>
+
+        <div id="educationalQualification">
+            <table id="educationalQualificationsTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th class="heading">Year</th>
+                        <th class="heading">Degree</th>
+                        <th class="heading" id="heading3">Institution (Board)</th>
+                        <th class="heading">CGPA/%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="body">2024*</td>
+                        <td class="body">B.Tech, CE</td>
+                        <td class="body">Indian Institute of Technology, Kanpur</td>
+                        <td class="body">8/10</td>
+                    </tr>
+                    <tr>
+                        <td class="body">2020</td>
+                        <td class="body">CBSE XII</td>
+                        <td class="body">Narayana E-Techno School, Hyderabad</td>
+                        <td class="body">94%</td>
+                    </tr>
+                    <tr>
+                        <td class="body bodyBottom">2018</td>
+                        <td class="body bodyBottom">SSC X</td>
+                        <td class="body bodyBottom">Little Flower High School, Hyderabad</td>
+                        <td class="body bodyBottom">10/10</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>&nbsp;</div>
+        </div>
+        <div id="bottomDivision">
+            <div id="leftDivision">
+            <div id="bottomContent">
+                <div class="sectionHeading">
+                    <mark> Work Experience &nbsp;</mark>
+                </div>
+                <div class="headingContent">&nbsp;Member of GI Project
+                </div>
+                <div class="subheadingContent">&nbsp;Organized by Society of Civil Engineering
+                </div>
+                <div class="contentLocation">India
+                </div>
+                <div class="contentTime">Winter 2021
+                </div>
+                <div class="contentText">
+                    <ul>
+                        <li>I learnt HTML and CSS.</li>
+                        <li>Made my resume using HTML and CSS.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="bottomContent">
+                <div class="headingContent">&nbsp;Team AUV
+                </div>
+                <div class="subheadingContent">&nbsp;SNT Team, IITK
+                </div>
+                <div class="contentLocation">India
+                </div>
+                <div class="contentTime">April 2021 - Present
+                </div>
+                <div class="contentText">
+                    <ul>
+                        <li>Learned various softwares usage such as MATLAB-SIMULINK.</li>
+                        <li>Got an idea of functioning of basic circuits through various assignments given by the leaders.</li>
+                        <li>Learnt the usage of GIT and GITHUB to collaberatively work on assignments.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="bottomContent">
+                <div class="headingContent">&nbsp;RustDuino Project
+                </div>
+                <div class="subheadingContent">&nbsp;Organized by Electronics Club, IITK
+                </div>
+                <div class="contentLocation">India
+                </div>
+                <div class="contentTime">May 2021 - July 2021
+                </div>
+                <div class="contentText">
+                    <ul>
+                        <li>Worked on creating libraries for atmega328p (Arduino UNO) chip.</li>
+                        <li>Learned Rust language and arduino programming.</li>
+                        <li>Worked with Arduino Boards and other sensors such as aht10 sensor, display sensor.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="headingContent">&nbsp;Intro to GameDev
+            </div>
+            <div class="subheadingContent">&nbsp;Organized by GameDev Society, IITK
+            </div>
+            <div class="contentLocation">India
+            </div>
+            <div class="contentTime">May 2021 - July 2021
+            </div>
+            <div class="contentText">
+                <ul>
+                    <li>Developed a basic game using Unity and Blender from scratch as a team.</li>
+                    <li>Made the environment setup for the game.</li>
+                    <li>Created custom animations and added them to the character.</li>
+                </ul>
+            </div>
+
+            </div>
+            <div id="rightDivision">
+            <div id="bottomContent">
+                <div class="sectionHeading">
+                    <mark> Technical Skills&nbsp;</mark>
+                </div>
+                <div class="contentText">
+                    &nbsp;Programming: C/C++ | MATLAB | Rust | HTML | CSS<br>
+                    &nbsp;Tools: Git | Microsoft Office | Simulink
+                </div>
+                <div><br></div>
+
+                <div class="sectionHeading">
+                    <mark>Positions of Responsibility &nbsp;</mark>
+                </div>
+                <div class="headingContent2">&nbsp;E-Sports Society, IIT Kanpur
+                </div>
+                <div>
+                    &nbsp;-Secretary
+                </div>
+                <div class="contentLocation">India
+                </div>
+                <div class="contentTime">June 2020 - Present
+                </div>
+                <div class="contentText">
+                    &nbsp;Appointed by the leaders to aid them in the conduction of various e-sports tournament.
+                </div>
+                
+                <div class="headingContent2">&nbsp;Antaragni, IIT Kanpur
+                </div>
+                <div>
+                    &nbsp;-Secretary
+                </div>
+                <div class="contentLocation">India
+                </div>
+                <div class="contentText">
+                    &nbsp;Appointed by the organizers to aid them in the smooth conduction of the event.
+                </div>
+
+                <div class="headingContent2">&nbsp;Udghosh, IIT Kanpur
+                </div>
+                <div>
+                    &nbsp;-Secretary
+                </div>
+                <div class="contentLocation">India
+                </div>
+                <div class="contentText">
+                    &nbsp;Appointed by the organizers to aid them in the smooth conduction of the event.
+                </div>
+                <div><br></div>
+                
+                <div class="sectionHeading">
+                    <mark>Scholastic Achievements &nbsp;</mark>
+                </div>
+                <div class="contentText">
+                    <ul>
+                        <li>Secured an AIR 6819 in JEE Mains 2020 (Paper-1).</li>
+                        <li>Secured an AIR 172 in JEE Mains 2020 (Paper-2).</li>
+                        <li>Secured an AIR 4530 in IIT-JEE Advanced 2020.</li>
+                        <li>Secured High Distinction in ANCQ-2017 and Distinction in ANCQ-2015.</li>
+                        <li>Secured Silver medal in Critical Thinking and Creative skills competition conducted by<br>Eduranet (2016-2017).</li>
+                        <li>Secured Distinction in assessments conducted by UNSW Global in Mathematics, and<br>Science during the years 2015 and 2017.</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div>
+            <div class="sectionHeading"><mark> Relevant Courses</mark> </div>
+            <div id="relevantCoursesFlex">
+                <div>Introduction to programming<br>
+                     Civil Engineering Materials
+                </div>
+                <div>Engineering Graphics<br>
+                    Structural Analysis
+                </div>
+                <div>Manufacturing Processes<br>
+                    Engineering Hydraulics
+                </div>
+                <div>Introduction to Electronics<br>
+                    Sustainable Built Environmnet
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
