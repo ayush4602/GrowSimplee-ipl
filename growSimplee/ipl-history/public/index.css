@@ -1,0 +1,10 @@
+.topBar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: #333333;
+    color: #ffff;
+    box-sizing: border-box;
+    padding: 0px;
+}
