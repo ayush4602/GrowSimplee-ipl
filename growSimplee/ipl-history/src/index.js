@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { teamj } from './Team.js';
+import { seasonj } from './Season.js';
 import { JsonToTable } from 'react-json-to-table';
 
 function App() {
-  const dataj = teamj;
-  console.log(dataj);
   return (
-    <JsonToTable json={dataj} />
+    <React.Fragment>
+      <JsonToTable json={teamj} />
+      <JsonToTable json={seasonj} />
+    </React.Fragment>
   );
 };
 
