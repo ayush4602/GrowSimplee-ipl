@@ -1,9 +1,9 @@
 import React from 'react'
-import JsonData from './Team.json'
+import TeamJsonData from './Team.json'
 import './table.css';
 
 function TeamJsonDataDisplay(){
-    const DisplayData=JsonData.map(
+    const DisplayData=TeamJsonData.map(
         (info)=>{
             return(
                 <tr>
@@ -16,13 +16,13 @@ function TeamJsonDataDisplay(){
     )
  
     return(
-        <div>
-            <table class="table-table-striped">
-                <thead>
+        <div class="table">
+            <table class="table-striped">
+                <thead class="thead">
                     <tr>
-                    <th>Sr.No.</th>
-                    <th>Name</th>
-                    <th>Short Code</th>
+                    <th>&nbsp; Sr.No. &nbsp;</th>
+                    <th>&nbsp; Name &nbsp;</th>
+                    <th>&nbsp; Short Code &nbsp;</th>
                     </tr>
                 </thead>
                 <tbody>

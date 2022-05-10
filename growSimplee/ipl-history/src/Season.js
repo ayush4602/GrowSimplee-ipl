@@ -18,18 +18,18 @@ function SeasonJsonDataDisplay(){
     )
  
     return(
-        <div>
-            <table class="table-table-striped">
-                <thead class="head">
+        <div class="table">
+            <table class="table-striped">
+                <thead class="thead">
                     <tr>
-                    <th>Sr.No.</th>
-                    <th>Year</th>
-                    <th>Orange_Cap_Id</th>
-                    <th>Purple_Cap_Id</th>
-                    <th>Man_of_the_Series_Id</th>
+                    <th>&nbsp; Sr. No. &nbsp;</th>
+                    <th>&nbsp; Year &nbsp;</th>
+                    <th>&nbsp; Orange Cap Id &nbsp;</th>
+                    <th>&nbsp; Purple Cap Id &nbsp;</th>
+                    <th>&nbsp; Man of the Series Id &nbsp;</th>
                     </tr>
                 </thead>
-                <tbody class="body">
+                <tbody>
                 
                     {DisplayData}
                     

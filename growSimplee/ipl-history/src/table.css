@@ -1,4 +1,16 @@
-.table-table-striped {
-    border: 2px solid rgb(0, 0, 0);
+.table {
+    display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.table-striped {
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+th {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }

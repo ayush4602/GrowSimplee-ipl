@@ -1,13 +1,15 @@
 import React from 'react';
 import TeamJsonDataDisplay from './Team.js';
 import SeasonJsonDataDisplay from './Season.js';
+import PlayerJsonDataDisplay from './Player.js';
 import ReactDOM from 'react-dom/client';
 
 function App() {
   return (
     <React.Fragment>
-      <TeamJsonDataDisplay />
-      <SeasonJsonDataDisplay />
+      <TeamJsonDataDisplay /> &nbsp;
+      <SeasonJsonDataDisplay /> &nbsp;
+      <PlayerJsonDataDisplay />
     </React.Fragment>
   );
 };
