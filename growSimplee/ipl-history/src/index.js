@@ -1,14 +1,13 @@
 import React from 'react';
+import TeamJsonDataDisplay from './Team.js';
+import SeasonJsonDataDisplay from './Season.js';
 import ReactDOM from 'react-dom/client';
-import { teamj } from './Team.js';
-import { seasonj } from './Season.js';
-import { JsonToTable } from 'react-json-to-table';
 
 function App() {
   return (
     <React.Fragment>
-      <JsonToTable json={teamj} />
-      <JsonToTable json={seasonj} />
+      <TeamJsonDataDisplay />
+      <SeasonJsonDataDisplay />
     </React.Fragment>
   );
 };
@@ -18,5 +17,4 @@ root.render(
   <React.StrictMode>   
     <App />
   </React.StrictMode>
-  
 );
