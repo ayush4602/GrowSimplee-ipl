@@ -14,3 +14,10 @@ th {
     border-right: 1px solid black;
     border-left: 1px solid black;
 }
+
+.text {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
