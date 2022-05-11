@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# IPL App
+
+Major libraries used: React and ReactDOM
+Bonus Points: tried making the web app offline
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
