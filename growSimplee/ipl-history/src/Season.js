@@ -1,10 +1,10 @@
-import React from 'react'
-import SeasonJsonData from './Season.json';
-import Appp from './Appp';
+import React from "react";
+import Appp from "./seasonPlayer";
 import './table.css';
 
-function SeasonJsonDataDisplay(){
-    const DisplayData=SeasonJsonData.map(
+export default function SeasonJsonDataDisplay() {
+    const students = Appp();
+    const DisplayData=students.map(
         (info)=>{
             return(
                 <tr>
@@ -17,7 +17,6 @@ function SeasonJsonDataDisplay(){
             )
         }
     )
- 
     return(
         <div className="table">
             <table className="table-striped">
@@ -25,9 +24,9 @@ function SeasonJsonDataDisplay(){
                     <tr>
                     <th>&nbsp; Sr. No. &nbsp;</th>
                     <th>&nbsp; Year &nbsp;</th>
-                    <th>&nbsp; Orange Cap Id &nbsp;</th>
-                    <th>&nbsp; Purple Cap Id &nbsp;</th>
-                    <th>&nbsp; Man of the Series Id &nbsp;</th>
+                    <th>&nbsp; Orange Cap Player &nbsp;</th>
+                    <th>&nbsp; Purple Cap Player &nbsp;</th>
+                    <th>&nbsp; Man of the Series &nbsp;</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -39,6 +38,4 @@ function SeasonJsonDataDisplay(){
              
         </div>
     )
- }
- 
- export default SeasonJsonDataDisplay;
+}
