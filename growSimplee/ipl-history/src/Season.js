@@ -1,5 +1,6 @@
 import React from 'react'
-import SeasonJsonData from './Season.json'
+import SeasonJsonData from './Season.json';
+import Appp from './Appp';
 import './table.css';
 
 function SeasonJsonDataDisplay(){
@@ -18,9 +19,9 @@ function SeasonJsonDataDisplay(){
     )
  
     return(
-        <div class="table">
-            <table class="table-striped">
-                <thead class="thead">
+        <div className="table">
+            <table className="table-striped">
+                <thead className="thead">
                     <tr>
                     <th>&nbsp; Sr. No. &nbsp;</th>
                     <th>&nbsp; Year &nbsp;</th>

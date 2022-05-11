@@ -6,6 +6,9 @@ function PlayerJsonDataDisplay(){
     const DisplayData=PlayerJsonData.map(
         (info)=>{
             if(info.Is_Umpire === 0) {
+                if(info.Bowling_Skill === "NULL") {
+                    info.Bowling_Skill = "Not a Bowler";
+                }
             return(
                 <tr>
                     <td>{info.Player_Id}</td>
@@ -19,9 +22,9 @@ function PlayerJsonDataDisplay(){
     )
  
     return(
-        <div class="table">
-            <table class="table-striped">
-                <thead class="thead">
+        <div className="table">
+            <table className="table-striped">
+                <thead className="thead">
                     <tr>
                     <th>&nbsp; Player Id &nbsp;</th>
                     <th>&nbsp; Name &nbsp;</th>

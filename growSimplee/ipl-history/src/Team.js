@@ -16,9 +16,9 @@ function TeamJsonDataDisplay(){
     )
  
     return(
-        <div class="table">
-            <table class="table-striped">
-                <thead class="thead">
+        <div className="table">
+            <table className="table-striped">
+                <thead className="thead">
                     <tr>
                     <th>&nbsp; Sr.No. &nbsp;</th>
                     <th>&nbsp; Name &nbsp;</th>
