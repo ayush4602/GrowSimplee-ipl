@@ -1,5 +1,7 @@
 # IPL App
 
+## About : 
+
 # Major libraries used: React and ReactDOM
 # Bonus Points: tried making the web app offline
 
